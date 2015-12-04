@@ -5,7 +5,7 @@ package com.sedion.advanced.model;
 * 项目名称：wechatapi  
 * 类名称：WeixinMedia  
 * 类描述：媒体文件信息  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-8 下午6:19:39  
 * @version       
 */

@@ -4,7 +4,7 @@ package com.sedion.menu.model;
 * 项目名称：wechatapi  
 * 类名称：Button  
 * 类描述：一级菜单数组(父按钮)，个数应为1~3个  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-11 下午12:39:41  
 * @version       
 */

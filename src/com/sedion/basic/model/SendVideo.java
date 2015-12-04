@@ -5,7 +5,7 @@ package com.sedion.basic.model;
 * 项目名称：wechatapi  
 * 类名称：SendVideo  
 * 类描述：视频model  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-26 下午7:29:52  
 * @version       
 */

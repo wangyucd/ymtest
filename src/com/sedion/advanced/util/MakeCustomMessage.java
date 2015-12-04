@@ -12,7 +12,7 @@ import net.sf.json.JSONObject;
 * 项目名称：wechatapi  
 * 类名称：MakeCustomMessage  
 * 类描述：生成客服消息工具  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-7 上午10:24:43  
 * @version       
 */

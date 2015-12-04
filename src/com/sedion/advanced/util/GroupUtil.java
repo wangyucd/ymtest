@@ -15,7 +15,7 @@ import com.sedion.wechatapi.util.CommonUtil;
 * 项目名称：wechatapi  
 * 类名称：GroupUtil  
 * 类描述：用户组操作工具  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-8 下午2:17:48  
 * @version       
 */

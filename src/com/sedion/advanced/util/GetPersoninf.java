@@ -5,32 +5,32 @@ import com.sedion.wechatapi.util.CommonUtil;
 import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
 
-/**  
-*   
-* 项目名称：wechatapi  
-* 类名称：GetPersoninf  
-* 类描述：获取用户基本个人信息方法  
-* 创建人：WQ  
-* 创建时间：2014-3-7 下午1:43:39  
-* @version       
+/**
+*
+* 项目名称：wechatapi
+* 类名称：GetPersoninf
+* 类描述：获取用户基本个人信息方法
+* 创建人：Myna Wang
+* 创建时间：2014-3-7 下午1:43:39
+* @version
 */
 public class GetPersoninf extends CommonUtil{
 	/**
 	 * 获取用户基本个人信息
-	 * 
+	 *
 	 * @param accessToken 调用接口凭证
-	 * @param openid 普通用户的标识，对当前公众号唯一 
+	 * @param openid 普通用户的标识，对当前公众号唯一
 	 * @return PersonalInf 基本个人信息
 	 */
 	public static PersonalInf getPersonalInf(String accessToken,String openId){
 		PersonalInf personalInf=null;
-		String requestUrl = GET_PERSONALINF_URL.replace("ACCESS_TOKEN", accessToken).replace("OPENID", openId);  
+		String requestUrl = GET_PERSONALINF_URL.replace("ACCESS_TOKEN", accessToken).replace("OPENID", openId);
     	// 获取用户信息
-		JSONObject jsonObject = httpRequest(requestUrl, "GET", null);  
-	    // 如果请求成功  
-	    if (null != jsonObject) { 
-	        try {  
-	        	personalInf = new PersonalInf();  
+		JSONObject jsonObject = httpRequest(requestUrl, "GET", null);
+	    // 如果请求成功
+	    if (null != jsonObject) {
+	        try {
+	        	personalInf = new PersonalInf();
 	        	// 关注状态(1为关注，0为未关注)，未关注时获取不到其余信息
 	        	personalInf.setSubscribe(jsonObject.getInt("subscribe"));
 	        	// 用户的标识
@@ -51,7 +51,7 @@ public class GetPersoninf extends CommonUtil{
 	        	personalInf.setHeadimgurl(jsonObject.getString("headimgurl"));
 	        	// 关注时间
 	        	personalInf.setSubscribetime(jsonObject.getString("subscribetime"));
-	        } catch (Exception e) { 
+	        } catch (Exception e) {
 	        	// 如果openid没有，说明是假的openid
 	        	if (null==personalInf.getOpenid()||"".equals(personalInf.getOpenid())) {
 	        		log.error("用户:{} 不存在",openId);
@@ -63,20 +63,20 @@ public class GetPersoninf extends CommonUtil{
 					}else {
 						int errorCode=jsonObject.getInt("errcode");
 						String errorMsg=jsonObject.getString("errmsg");
-			            // 获取token失败  
-			            log.error("获取基本个人信息失败 errcode:{} errmsg:{} ", errorCode, errorMsg);  
+			            // 获取token失败
+			            log.error("获取基本个人信息失败 errcode:{} errmsg:{} ", errorCode, errorMsg);
 					}
 				}
-	        }  
+	        }
 	    }
-		return personalInf;  
+		return personalInf;
 	}
-	
+
 	/**
-	 * 查询用户所在分组 
-	 * 
+	 * 查询用户所在分组
+	 *
 	 * @param accessToken 调用接口凭证
-	 * @param openId 普通用户的标识，对当前公众号唯一 
+	 * @param openId 普通用户的标识，对当前公众号唯一
 	 * @return groupid
 	 */
 	public static int getPersonGroupId(String accessToken,String openId) {
@@ -85,7 +85,7 @@ public class GetPersoninf extends CommonUtil{
 		// 需要提交的json数据
 		String jsonData="{\"openid\":\"%s\"}";
 		// 创建分组
-		JSONObject jsonObject=httpRequest(requestUrl, "POST", 
+		JSONObject jsonObject=httpRequest(requestUrl, "POST",
 				String.format(jsonData, openId));
 		if (null!=jsonObject) {
 			try {
@@ -99,16 +99,16 @@ public class GetPersoninf extends CommonUtil{
 		}
 		return groupId;
 	}
-	
+
 	public static void main(String[] args) {
 		// 获取接口访问凭证
-		String accessToken=getAccessToken("wx13c0a227486f7e64", "864e16284d38c05c62cddc1be000351e").getAccesstoken();
+		String accessToken=getAccessToken("appid", "appsecret").getAccesstoken();
 		// 获取用户基本信息
-		PersonalInf personalInf=getPersonalInf(accessToken, "odIK5uJFzt2cg1zZTEpTVdx8sJVo");
+		PersonalInf personalInf=getPersonalInf(accessToken, "openId");
 		System.out.println(personalInf.getOpenid());
-		
-		/*// 查询用户所在分组
-		int groupid=getPersonGroupId(accessToken, "odIK5uJFzt2cg1zZTEpTVdx8sJVo");
-		System.err.println("组id是："+groupid);*/
+
+		// 查询用户所在分组
+		int groupid=getPersonGroupId(accessToken, "openId");
+		System.err.println("组id是："+groupid);
 	}
 }

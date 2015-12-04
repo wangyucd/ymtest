@@ -23,7 +23,7 @@ import com.sedion.wechatapi.util.XmlMessUtil;
 * 项目名称：wechatapi  
 * 类名称：SendBasicService  
 * 类描述：回复文本消息类  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-2-19 下午7:36:53  
 * @version       
 */

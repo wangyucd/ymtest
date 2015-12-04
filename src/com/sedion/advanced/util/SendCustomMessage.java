@@ -9,7 +9,7 @@ import com.sedion.wechatapi.util.CommonUtil;
 * 项目名称：wechatapi  
 * 类名称：SendCustomMessage  
 * 类描述：发送客服消息工具 
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-7 上午10:37:08  
 * @version       
 */

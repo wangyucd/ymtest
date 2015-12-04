@@ -5,7 +5,7 @@ package com.sedion.advanced.model;
 * 项目名称：wechat
 * 类名称：PersonalInf  
 * 类描述：用户个人基本信息  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-18 下午4:24:09  
 * @version       
 */

@@ -5,7 +5,7 @@ package com.sedion.event.model;
 * 项目名称：wechatapi  
 * 类名称：BasicEvent  
 * 类描述：事件基类  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-11 上午11:33:00  
 * @version       
 */

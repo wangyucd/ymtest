@@ -9,7 +9,7 @@ import java.util.Arrays;
 * 项目名称：wechat 
 * 类名称：SignUtil  
 * 类描述： 验证消息真实性(请求来源于微信)工具类   
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-26 下午7:32:50  
 * @version       
 */

@@ -7,7 +7,7 @@ import java.util.List;
 * 项目名称：wechatapi  
 * 类名称：WeixinUserList  
 * 类描述：获取关注者列表  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-7 下午7:53:00  
 * @version       
 */

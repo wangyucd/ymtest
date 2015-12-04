@@ -5,7 +5,7 @@ package com.sedion.advanced.model;
 * 项目名称：wechat  
 * 类名称：AccessToken  
 * 类描述：获取accesstoken(公众号的全局唯一票据)  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-2-17 下午1:26:58  
 * @version       
 */

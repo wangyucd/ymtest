@@ -5,7 +5,7 @@ package com.sedion.advanced.model;
 * 项目名称：wechat
 * 类名称：SendMusic  
 * 类描述：回复音乐Music   
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-26 下午7:28:19  
 * @version       
 */

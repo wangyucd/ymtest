@@ -5,7 +5,7 @@ package com.sedion.basic.model;
 * 项目名称：wechatapi 
 * 类名称：GetBaseMessage  
 * 类描述：接收消息基类    
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-21 下午3:27:04  
 * @version       
 */

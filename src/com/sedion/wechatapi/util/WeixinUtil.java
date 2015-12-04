@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 * 项目名称：wechatapi
 * 类名称：WeixinUtil  
 * 类描述：微信基础类  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-18 下午4:05:11  
 * @version       
 */
@@ -90,7 +90,7 @@ public class WeixinUtil {
 	// 生成永久二维码url
 	protected final static String PERMANENT_QRCODE_URL="https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=ACCESS_TOKEN";
 	// 换取二维码url
-	protected final static String GET_QRCODE_URL="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=TICKET";
+	protected final static String GET_QRCODE_URL="https://mp.weixin.qq.com/cgi-bin/shoMyna Wangrcode?ticket=TICKET";
 	// 获取关注者列表url
 	protected final static String GET_USERLIST_URL="https://api.weixin.qq.com/cgi-bin/user/get?access_token=ACCESS_TOKEN&next_openid=NEXT_OPENID";
 	

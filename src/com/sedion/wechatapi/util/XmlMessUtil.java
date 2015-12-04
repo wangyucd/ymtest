@@ -32,7 +32,7 @@ import com.thoughtworks.xstream.io.xml.XppDriver;
 * 项目名称：wechat-api  
 * 类名称：XmlMessUtil  
 * 类描述：xml形式消息处理工具类   
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-21 下午3:23:59  
 * @version       
 */

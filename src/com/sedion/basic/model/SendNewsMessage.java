@@ -7,7 +7,7 @@ import java.util.List;
 * 项目名称：wechatapi  
 * 类名称：SendNewsMessage  
 * 类描述：回复图文消息   
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-26 下午7:27:48  
 * @version       
 */

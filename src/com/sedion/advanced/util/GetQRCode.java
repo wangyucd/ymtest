@@ -8,10 +8,19 @@ import java.net.URL;
 
 import com.sedion.wechatapi.util.CommonUtil;
 
+/**
+*
+* 项目名称：wechatapi
+* 类名称：CreateQRCode
+* 类描述：获取二维码工具
+* 创建人：Myna Wang
+* 创建时间：2014-3-7 下午3:35:29
+* @version
+*/
 public class GetQRCode extends CommonUtil{
 	/**
 	 * 通过ticket换取二维码
-	 * 
+	 *
 	 * @param ticket 获取的二维码ticket
 	 * @param savePath 保存路径
 	 * @return String
@@ -46,13 +55,12 @@ public class GetQRCode extends CommonUtil{
 		}
 		return filePath;
 	}
-	
+
 	public static void main(String[] args) {
-		//String ticket="gQHN7zoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL0pFTUxKVDdsS1Q1UWFOeGtvbTJ3AAIEIn4ZUwMECAcAAA==";
 		String ticket="gQGx8DoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xL1JrTlIyajNsZ2o3NzlyNXFfRzJ3AAIEGKUZUwMEPAAAAA==";
 		String savePath="D:/db";
 		// 根据ticket换取二维码
 		getQRCode(ticket, savePath);
 	}
-	
+
 }

@@ -20,7 +20,7 @@ import com.sedion.wechatapi.util.CommonUtil;
 * 项目名称：wechatapi  
 * 类名称：MediaUtil  
 * 类描述：上传下载多媒体文件工具  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-8 下午7:55:34  
 * @version       
 */

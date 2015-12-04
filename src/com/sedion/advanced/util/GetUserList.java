@@ -15,7 +15,7 @@ import com.sedion.wechatapi.util.CommonUtil;
 * 项目名称：wechatapi  
 * 类名称：GetUserList  
 * 类描述：获取关注者列表 
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-8 下午1:06:21  
 * @version       
 */
@@ -58,7 +58,6 @@ public class GetUserList extends CommonUtil{
 	
 	public static void main(String[] args) {
 		// 获取接口访问凭证
-		/*String accessToken=GetAccesstoken.getAccessToken("wx13c0a227486f7e64", "864e16284d38c05c62cddc1be000351e").getAccesstoken();*/
 		String accessToken=getAccessToken("wx1ac53e0aacec764c", "18aca3be707291b48535b6598d945b59").getAccesstoken();
 		WeixinUserList weixinUserList=getUserList(accessToken, "");
 		System.err.println("total:"+weixinUserList.getTotal());

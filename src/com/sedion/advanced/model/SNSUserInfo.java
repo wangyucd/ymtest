@@ -7,7 +7,7 @@ import java.util.List;
 * 项目名称：wechatapi  
 * 类名称：SNSUserInfo  
 * 类描述：通过网页授权获取的用户信息 
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-6 下午9:01:49  
 * @version       
 */

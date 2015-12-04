@@ -10,7 +10,7 @@ import javax.net.ssl.X509TrustManager;
 * 项目名称：wechat-api  
 * 类名称：MyX509TrustManager  
 * 类描述： 证书信任管理器（用于https请求）编写证书过滤器   
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-1-26 下午7:33:07  
 * @version       
 */

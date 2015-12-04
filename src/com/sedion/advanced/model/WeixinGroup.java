@@ -5,7 +5,7 @@ package com.sedion.advanced.model;
 * 项目名称：wechatapi  
 * 类名称：WeixinGroup  
 * 类描述：公众账号分组信息  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-8 下午1:15:31  
 * @version       
 */

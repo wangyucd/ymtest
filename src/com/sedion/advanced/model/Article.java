@@ -6,7 +6,7 @@ package com.sedion.advanced.model;
 * 项目名称：wechat 
 * 类名称：SendArticle  
 * 类描述：回复图文Articles  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2013-10-3 下午4:10:51  
 * @version       
 */

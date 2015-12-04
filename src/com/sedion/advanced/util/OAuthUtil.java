@@ -11,8 +11,8 @@ import net.sf.json.JSONObject;
 *   
 * 项目名称：wechatapi  
 * 类名称：OAuthUtil  
-* 类描述：OAuth授权工具 
-* 创建人：WQ  
+* 类描述：OAuth2授权工具 
+* 创建人：Myna Wang  
 * 创建时间：2014-3-6 下午9:40:30  
 * @version       
 */

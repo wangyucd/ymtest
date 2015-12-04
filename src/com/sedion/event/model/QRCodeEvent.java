@@ -5,7 +5,7 @@ package com.sedion.event.model;
 * 项目名称：wechatapi  
 * 类名称：QRCodeEvent  
 * 类描述：二维码扫描事件  
-* 创建人：WQ  
+* 创建人：Myna Wang  
 * 创建时间：2014-3-11 上午11:37:18  
 * @version       
 */
